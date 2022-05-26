@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:Label text="Lightmap Baker" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 20px;" />
+    <ui:VisualElement name="inputData">
+        <uie:PropertyField binding-path="scenes" />
+    </ui:VisualElement>
+    <ui:VisualElement name="activeBakeData">
+        <ui:Label text="Don&apos;t close window while baking active!" style="-unity-text-align: middle-center;" />
+        <ui:ProgressBar name="bakeProgress" high-value="1" />
+    </ui:VisualElement>
+    <ui:Button name="start" text="Start" />
+    <ui:Button name="stop" text="Stop" />
+</ui:UXML>

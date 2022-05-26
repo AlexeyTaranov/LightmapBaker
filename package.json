@@ -1,0 +1,12 @@
+{
+  "name": "com.alexeytaranov.lightmapbaker",
+  "version": "0.0.1",
+  "displayName": "Lightmap Baker",
+  "description": "Quick lightmap baking",
+  "unity": "2019.1",
+  "unityRelease": "0a1",
+  "author": {
+    "name": "Alexey Taranov",
+    "email": "alexey.taranov0@gmail.com"
+  }
+}
